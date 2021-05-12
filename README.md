@@ -12,4 +12,4 @@ Class Description
     2. getJobs() always get jobs with highest priority.
     3. getJobBasedOnConsumption() get jobs based on consumption.
        Idea : If no of consumed jobs with current priority is higher than rest of unconsumed jobs with lower priority, then job at the next lowest priority will be removed from the holder.
-       Improvements : Compared to `getJobs()` , in-definite startvation will be removed. 
+       Improvements : Compared to `getJobs()` , in-definite starvation will be removed. 
