@@ -48,7 +48,7 @@ public class JobExecutorService {
 
     public void executor() {
         while (true) {
-            Job job = JobsHolder.getJobHolder().getJob();
+            Job job = JobsHolder.getJobHolder().getJobBasedOnConsumption();
             if (job != null) {
                 job.execute();
             }
